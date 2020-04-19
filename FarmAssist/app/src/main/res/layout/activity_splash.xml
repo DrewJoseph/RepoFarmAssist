@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:autoSizeMaxTextSize="@android:dimen/app_icon_size"
+        android:autoSizeMinTextSize="60dp"
+        android:text="Farm Assist"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="50dp"
+
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginBottom="143dp"
+
+        android:text="Farm Assist" />
+
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>
